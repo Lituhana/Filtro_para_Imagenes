@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<script src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>  
+
+<h1> Filtro para Imágenes </h1>
+
+<canvas id = "can"> </canvas>
+
+<div id = "div1"> Cargar Imagen </div>
+   <input type = "file" multiple = "false" accept = "image/*" id = "finput" onchange = "upload()">
+  
+<div id = "div2"> Elegir Filtro </div>
+   <input type = "button" value = "Filtro Rojo" onclick = "makeRed()">
+   <input type = "button" value = "Escala de Grises" onclick = "makeGrey()">  
+   <input type = "button" value = "Reiniciar Imagen" onclick = "resetImage()">
